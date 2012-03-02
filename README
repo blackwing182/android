@@ -1,0 +1,46 @@
+bionic - Standard C library for Android device / emulator
+bootable - bootloader, installer and other device booting stuff
+build - All the build utils and scripts... in particular
+ -  core/combo - Defines the settings for each type of device (e.g. porting)
+cts - the Android testing framework
+dalvik - the Android VM... in particular
+ -   vm - the libdvm library 
+ -   libdex - the DEX file format library
+ -   dalvikvm - the executable 'dalvikvm' linked to libdvm
+ -   libnativehelper - the Java JNI library
+development - emulator, simulator, and stuff for the NDK and SDK
+device - files specific to particular vendors' devices
+external - all the external source code for various libraries and tools - includes 'Skia' the Android graphics core
+frameworks - the Android framework library (both Java and native code)... in particular
+ -   base/core/jni - Core JNI code (bridge between Java and C/C++)
+ -   base/core/java - Core Java source code
+ -   base/services/java - Core Android 'services'
+ -   base/cmds/ - Essential commands (typically C++) - includes 'runtime' (for simulator?), 'system_server' for booting the core Android components from Java, and 'servicemanager' which 'binds' the services together through the Binder IPC mechanism - like an naming service
+ -   base/media - all the media libraries
+ -   base/opengl & base/graphics - graphics libraries     
+ -   libs/binder - the Binder IPC framework
+ -   base/policy - policy components
+ -   base/telephony - phone and telephony components
+ -   base/native - additional native libraries (keyboard, graphics, etc)
+hardware - libraries for basic hardware support - in particular
+ -   libhardware/modules/gralloc - framebuffer driver
+ -   libhardware_legacy - power, vibration, wifi drivers
+libcore - the Harmony Java Virtual Machine - which Dalvik uses for its Java API... in particular
+ -   luni/src/main/java - Java code for Java libraries
+ -   luni/src/main/native - Native C/C++ code for Java libraries (through JNI bridge)
+ndk - Native Development Kit (for developing native applications)
+out - the directory where all 'host' and 'target' build files are kept... in particular
+ -   host/<os>/bin - utilities for host building, including the 'simulator' (on Linux only)
+ -   (debug?)/target/product/generic/system - the target system file system
+packages -  'applications' and 'providers' to be packaged into .apk files
+prebuilt - all the pre-built tools for cross-compiling
+sdk - the Android Software Development Kit (for application developers)
+system - core system libraries and utilities. In particular...
+ -  core/liblog - logging
+ -  core/libcutils - addtional C functions - also 'zygote' which takes care of some forking new Dalvik processes
+ -  core/toolbox - typical UNIX utilities
+ -  core/init - the 'init' process for native boot sequence
+ -  core/libpixelflinger - low level pixel graphics rendering
+ -  core/netd - the 'netd' network daemon
+ -  core/vold - the 'vold' volume management daemon
+ -  core/wlan - additional Wireless LAN drivers
