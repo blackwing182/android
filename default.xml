@@ -246,7 +246,7 @@
   <project path="hardware/libhardware" name="aospX/platform_hardware_libhardware" remote="github" revision="ics-devel"/>
   <project path="hardware/libhardware_legacy" name="aospX/platform_hardware_libhardware_legacy" remote="github" revision="ics-devel"/>
   <project path="hardware/msm7k" name="aospX/platform_hardware_msm7k" remote="github" revision="ics-devel"/>
-  <project path="hardware/qcom/display" name="aospX/platform_hardware_qcom_display" remote="github" revision="ics-devel"/>
+  <project path="hardware/qcom/display" name="aospX/platform_hardware_qcom_display" remote="github" revision="ics_chocolate-caf" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="ics"/>
   <project path="hardware/qcom/media" name="aospX/platform_hardware_qcom_media" remote="github" revision="ics-devel"/>
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="github" revision="ics" />
