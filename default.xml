@@ -194,6 +194,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
+  <project path="packages/apps/ROMControl" name="IceColdSandwich/packages_apps_ROMControl" remote="github" revision="master"/>  
   <project path="packages/apps/Settings" name="aospX/platform_packages_apps_Settings" remote="github" revision="ics-devel"/>
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
