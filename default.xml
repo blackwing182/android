@@ -242,7 +242,7 @@
 
   <!-- Hardware Files -->
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="github" revision="ics"/>
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" revision="ics"  />
+  <project path="hardware/libhardware" name="aospX/platform_hardware_libhardware" remote="github" revision="ics-devel"/>
   <project path="hardware/libhardware_legacy" name="aospX/platform_hardware_libhardware_legacy" remote="github" revision="ics-devel"/>
   <project path="hardware/msm7k" name="aospX/platform_hardware_msm7k" remote="github" revision="ics-devel"/>
   <project path="hardware/qcom/display" name="aospX/platform_hardware_qcom_display" remote="github" revision="ics-devel"/>
