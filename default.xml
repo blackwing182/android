@@ -20,7 +20,7 @@
   <project path="bionic" name="aospX/platform_bionic" remote="github" revision="ics-devel"/>
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" revision="ics" />
+  <project path="bootable/recovery" name="aospX/platform_bootable_recovery" remote="github" revision="ics-devel" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="aospX/platform_dalvik" remote="github" revision="ics-devel" />
   <project path="development" name="platform/development" />
