@@ -241,7 +241,7 @@
   <project path="device/htc/ace" name="aospX/platform_device_htc_ace" remote="github" revision="ics-devel"/>
   <project path="device/htc/common" name="aospX/platform_device_htc_common" remote="github" revision="ics-devel"/>
   <project path="device/htc/glacier" name="Zipsnet/android_device_htc_glacier" remote="github" revision="master"/>
-  <project path="device/htc/msm7x30-common" name="CyanogenMod/android_device_htc_msm7x30-common" remote="github" revision="ics"/>
+  <project path="device/htc/msm7x30-common" name="Zipsnet/android_device_htc_msm7x30-common" remote="github" revision="master"/>
 
   <!-- Hardware Files -->
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="github" revision="ics"/>
