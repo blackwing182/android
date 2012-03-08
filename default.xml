@@ -47,7 +47,7 @@
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
-  <project path="external/chromium" name="platform/external/chromium" />
+  <project path="external/chromium" name="CyanogenMod/android_external_chromium" remote="github" revision="ics" />
   <project path="external/clang" name="aospX/platform_external_clang" remote="github" revision="ics-devel" />
   <project path="external/collada" name="platform/external/collada" />
   <project path="external/dbus" name="platform/external/dbus" />
